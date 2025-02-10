@@ -8,8 +8,7 @@ export const DATA = {
 	location: "Jharkhand, India",
 	locationLink: "https://maps.app.goo.gl/1yFmB1zGZTPDbyH2A",
 	description: "Backend Developer. I love building things and helping people.",
-	summary:
-		`I'm a backend developer passionate about building scalable, high-performance systems. I have expertise in **Go**, **Node.js**, **TypeScript**, and **Next.js**, with a strong foundation in database design and API development. 
+	summary: `I'm a backend developer passionate about building scalable, high-performance systems. I have expertise in **Go**, **Node.js**, **TypeScript**, and **Next.js**, with a strong foundation in database design and API development. 
 		\nI am seeking a **backend role** where I can leverage my skills to solve real-world challenges, enhance system reliability, and contribute to innovative, scalable products.`,
 	avatarUrl: "/me.png",
 	skills: ["Go", "Next.js", "Node.js", "Typescript", "Docker"],
@@ -18,42 +17,41 @@ export const DATA = {
 		{ href: "/blog", icon: NotebookIcon, label: "Blog" },
 	],
 	contact: {
-		email: "hello@example.com",
-		tel: "+123456789",
+		email: "surajgoraicse@gmail.com",
+		tel: "+919110099518",
 		social: {
 			GitHub: {
 				name: "GitHub",
-				url: "https://dub.sh/dillion-github",
+				url: "https://github.com/surajgoraicse",
 				icon: Icons.github,
 
 				navbar: true,
 			},
 			LinkedIn: {
 				name: "LinkedIn",
-				url: "https://dub.sh/dillion-linkedin",
+				url: "https://www.linkedin.com/in/surajgoraicse/",
 				icon: Icons.linkedin,
 
 				navbar: true,
 			},
 			X: {
 				name: "X",
-				url: "https://dub.sh/dillion-twitter",
+				url: "https://x.com/surajgoraicse",
 				icon: Icons.x,
 
 				navbar: true,
 			},
 			Youtube: {
 				name: "Youtube",
-				url: "https://dub.sh/dillion-youtube",
+				url: "",
 				icon: Icons.youtube,
-				navbar: true,
+				navbar: false,
 			},
 			email: {
 				name: "Send Email",
-				url: "#",
+				url: "mailto:surajgoraicse@gmail.com",
 				icon: Icons.email,
-
-				navbar: false,
+				navbar: true,
 			},
 		},
 	},
@@ -174,11 +172,10 @@ export const DATA = {
 				},
 			],
 			image: "/portfolio.png",
+			video: "",
 			// video:
 			// 	"https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
 		},
-		
-		
 	],
 	hackathons: [
 		{
