@@ -12,13 +12,13 @@ export default function Home() {
 		<div className="max-[350px]:overflow-hidden mt-8 max-sm:mt-0">
 			<InitialLanding />
 
-			<div className="w-full flex justify-center">
+			{/* <div className="w-full flex justify-center">
 				<AddOnProjects />
-			</div>
+			</div> */}
 
-			<div className="w-full flex justify-center mt-8">
-				<Experience />
-			</div>
+			{/* <div className="w-full flex justify-center mt-8">
+				<Experience />  // Uncomment if you want to show Experience section
+			</div> */}
 
 			<div className="w-full flex justify-center mt-12">
 				<HomeRouteBlogs />

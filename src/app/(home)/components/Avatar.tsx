@@ -3,9 +3,9 @@ import { Link, Avatar as Picture } from '@radix-ui/themes'
 
 const Avatar = () => {
   return (
-    <Link href='https://x.com/intent/follow?screen_name=fardeentwt' target='_blank'>
+    <Link href='https://x.com/intent/follow?screen_name=surajgoraicse' target='_blank'>
       <Picture
-        src='/space.jpeg'
+        src='/suraj.jpg'
         fallback="A"
         size='6'
         radius='full'

@@ -14,6 +14,7 @@ import { toast } from 'sonner'
 import { SiLivechat } from "react-icons/si";
 import Title from './ui/Title';
 
+// fix the url of book a meet, twitter and linkedin
 
 const Contact = () => {
     const [email, setEmail] = useState<string>('')
@@ -65,15 +66,21 @@ const Contact = () => {
                     <h2 className='text-lg max-sm:text-base'>Have a Question? Let&apos;s Chat!</h2>
                 </div>
                 <div className='flex gap-3 mt-2'>
-                    <Link href="https://cal.com/fardeen26/15min" target="_blank">
+                    <Link href="#" >   {/* add topmate link or some platfrom where you can book a meeting */}
+                   
                         <button className='bg-[#4ADE80] text-black py-2 px-3 rounded-md flex items-center gap-2 text-sm max-sm:text-xs hover:bg-[#42bc6f]'>
                             <SiLivechat className='h-[18px] w-[18px]' /> Book a meet
                         </button>
                     </Link>
 
-                    <Link href="https://twitter.com/messages/compose?recipient_id=1596464580753911810" target="_blank">
-                        <button className='bg-[#1D9BF0] text-white py-2 px-3 rounded-md flex items-center gap-2 text-sm max-sm:text-xs hover:bg-[#2e7bae]'>
+                    <Link href="https://twitter.com/surajgoraicse" target="_blank">
+                        <button className='bg-[#1DA1F2] text-white py-2 px-3 rounded-md flex items-center gap-2 text-sm max-sm:text-xs hover:bg-[#2e7bae]'>
                             <FaXTwitter className='h-[18px] w-[18px]' /> Chat on Twitter
+                        </button>
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/surajgoraicse/" target="_blank">
+                        <button className='bg-[#0077B5] text-white py-2 px-3 rounded-md flex items-center gap-2 text-sm max-sm:text-xs hover:bg-[#2e7bae]'>
+                            <FaXTwitter className='h-[18px] w-[18px]' /> LinkedIn
                         </button>
                     </Link>
                 </div>
@@ -87,7 +94,7 @@ const Contact = () => {
                         <form className='flex flex-col gap-4' onSubmit={sendEmailMessage}>
                             <div className="grid w-full gap-2">
                                 <Label htmlFor="message">Your Email</Label>
-                                <Input type="text" className='w-full h-full border' placeholder='johndoe69@xyz.com' value={email} onChange={(e) => setEmail(e.target.value)} required />
+                                <Input type="text" className='w-full h-full border' placeholder='surajgoraicse@gamil.com' value={email} onChange={(e) => setEmail(e.target.value)} required />
                             </div>
                             <div className="grid w-full gap-2">
                                 <Label htmlFor="message">Your message</Label>

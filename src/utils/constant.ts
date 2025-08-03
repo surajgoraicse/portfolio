@@ -37,12 +37,12 @@ export const experienceData: I_Experience[] = [
 
 export const educationData: I_Education[] = [
     {
-        institute_link: "https://www.uok.ac.in/",
-        institute_logo: "/uok.gif",
-        course_title: "Bachelors of Computer Application",
-        ending_date: "Expected July 2025",
-        institute_name: "University of Kota",
-        cgpa: 8.5,
+        institute_link: "https://nsuniv.ac.in/",
+        institute_logo: "/nsu-logo.png",
+        course_title: "Bachelors of Technology, Computer Science",
+        ending_date: "Expected July 2028",
+        institute_name: "Netaji Subhas University",
+        cgpa: 8.2,
         description: ""
     }
 ] 
