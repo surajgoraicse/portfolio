@@ -10,29 +10,29 @@ import ConditionalFooter from "./ConditionalFooter";
 import Provider from "@/context/Provider";
 
 export const metadata: Metadata = {
-  title: "fardeen",
-  description: "Fardeen Mansoori is a Full Stack Developer specializing in building impactful web applications from scratch. Explore his portfolio to see my projects and skills.",
-  keywords: "Fardeen Mansoori, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
-  authors: [{ name: "Fardeen Mansoori" }],
+  title: "suraj",
+  description: "Suraj Gorai is a Backend Developer specializing in building scalable, production-grade systems using Go / Python from scratch. Explore his portfolio to see my projects and skills.",
+  keywords: "Suraj Gorai, Backend Developer, Web Developer, Portfolio, Go, Python, Golang, Node.js, software engineer",
+  authors: [{ name: "Suraj Gorai" }],
   openGraph: {
-    title: "fardeen",
+    title: "suraj",
     description: "",
-    url: "https://fardeen.tech",
-    siteName: "fardeen",
+    url: "#", // add your website url eg. https://suraj.dev
+    siteName: "suraj",
     images: [
       {
-        url: "https://res.cloudinary.com/dl27j0qcm/image/upload/v1739721063/gradii-3840x2160_3_jqk2nt.png",
+        url: "https://res.cloudinary.com/surajgoraicse/image/upload/v1754202297/Suraj_Gorai_llxgon.png",
         width: 400,
         height: 200,
-        alt: "fardeen",
+        alt: "suraj",
       },
     ],
     type: "website",
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'fardeen',
-    creator: '@fardeentwt',
+    title: 'suraj',
+    creator: '@surajgoraicse',
   },
 };
 

@@ -1,5 +1,6 @@
 "use client";
-
+// this component conditionally renders the footer based on the current path
+// if the path starts with '/blogs', the footer will not be rendered
 import React from 'react'
 import { usePathname } from 'next/navigation';
 import Footer from '@/components/Footer';
