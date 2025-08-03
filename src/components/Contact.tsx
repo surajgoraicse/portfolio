@@ -73,7 +73,7 @@ const Contact = () => {
                         </button>
                     </Link>
 
-                    <Link href="https://twitter.com/surajgoraicse" target="_blank">
+                    <Link href="https://x.com/intent/follow?screen_name=surajgoraicse" target="_blank">
                         <button className='bg-[#1DA1F2] text-white py-2 px-3 rounded-md flex items-center gap-2 text-sm max-sm:text-xs hover:bg-[#2e7bae]'>
                             <FaXTwitter className='h-[18px] w-[18px]' /> Chat on Twitter
                         </button>

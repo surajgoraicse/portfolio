@@ -7,13 +7,13 @@ import { Badge, Separator } from "@radix-ui/themes";
 import Title from "@/components/ui/Title";
 
 const About = () => {
-	const [isMore, setIsMore] = useState<boolean>(false);
+	const [isMore, setIsMore] = useState<boolean>(true);
 	return (
 		<div className="w-full px-64 max-[1285px]:px-52 max-lg:px-4 max-sm:px-5 flex flex-col items-center mt-4 pb-8">
 			<Title title="The Evolution of My Tech Journey" />
 
 			<div className="w-full pl-36 pr-28 max-sm:px-2">
-				{data.slice(0, 3).map((item, idx) => (
+				{data.slice(0, 4).map((item, idx) => (
 					<div key={idx}>
 						<h1
 							className={`text-2xl max-sm:text-xl mt-8 font-medium ${bricolage_grotesque}`}
