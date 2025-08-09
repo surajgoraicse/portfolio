@@ -1,4 +1,6 @@
-export const dynamic = "force-dynamic"; // force to fetch new data evertime and suspend caching
+// force to fetch new data evertime and suspend caching
+export const dynamic = "force-dynamic";
+export const revalidate = 0; // disables ISR
 
 import { IBlog } from "@/types/project";
 import BlogCard from "./BlogCard";
