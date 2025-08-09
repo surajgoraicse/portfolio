@@ -14,9 +14,10 @@ export default function InitialLanding() {
         >
             <HeroSection />
 
-            <div className="w-full flex justify-center mt-52 max-sm:mt-20">
+            {/* uncomment this to show projects */}
+            {/* <div className="w-full flex justify-center mt-52 max-sm:mt-20">
                 <ProjectCardList />
-            </div>
+            </div> */}
         </motion.div>
     )
 }
