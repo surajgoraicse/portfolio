@@ -64,7 +64,7 @@ const About = () => {
 				</div>
 
 				{isMore &&
-					data.slice(3).map((item, idx) => (
+					data.slice(4).map((item, idx) => (
 						<div key={idx}>
 							<h1
 								className={`text-2xl mt-8 font-medium ${bricolage_grotesque}`}
@@ -125,7 +125,7 @@ export default About;
 const data: I_About[] = [
 	{
 		year: 2025,
-        events: ["Learning, building, and writing code."],
+		events: ["Learning, building, and writing code."],
 	},
 	{
 		year: 2024,
