@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import HeroSection from "@/components/HeroSection"
-import ProjectCardList from "@/app/projects/components/ProjectCardList"
+// import ProjectCardList from "@/app/projects/components/ProjectCardList"
 
 export default function InitialLanding() {
     return (

@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import ProjectCardList from './components/ProjectCardList';
+// import ProjectCardList from './components/ProjectCardList';
 import { motion } from 'framer-motion'
 
 const Projects = () => {
