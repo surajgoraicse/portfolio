@@ -86,6 +86,14 @@ const Navbar = () => {
                             </div>
                         </Tooltip>
                     </Link>
+                    
+                    <Link href="https://leetcode.com/u/surajgoraicse/" target='_blank'>
+                        <Tooltip content="Leetcode">
+                            <div className='hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300'>
+                                <CodeIcon className='w-[19px] h-[19px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white' />
+                            </div>
+                        </Tooltip>
+                    </Link>
 
                     <Separator orientation='vertical' size={{ sm: '1', lg: '2', xl: '2' }} className='bg-black dark:bg-gray-400' />
 
