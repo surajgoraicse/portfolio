@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic"; // force to fetch new data evertime and suspend caching
+
 import { IBlog } from "@/types/project";
 import BlogCard from "./BlogCard";
 import { prisma } from "@/lib/prisma";
