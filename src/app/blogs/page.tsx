@@ -1,16 +1,19 @@
-import BlogList from './components/BlogList'
-import { Suspense } from 'react'
-import ClientWrapper from './components/ClientWrapper'
-import BlogSkeleton from './components/BlogSkeleton'
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+import BlogList from "./components/BlogList";
+import { Suspense } from "react";
+import ClientWrapper from "./components/ClientWrapper";
+import BlogSkeleton from "./components/BlogSkeleton";
 
 const Page = () => {
-  return (
-    <ClientWrapper>
-      <Suspense fallback={<BlogSkeleton />}>
-        <BlogList />
-      </Suspense>
-    </ClientWrapper>
-  )
-}
+	return (
+		<ClientWrapper>
+			<Suspense fallback={<BlogSkeleton />}>
+				<BlogList />
+			</Suspense>
+		</ClientWrapper>
+	);
+};
 
-export default Page
+export default Page;

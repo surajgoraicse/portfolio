@@ -31,7 +31,7 @@ async function getBlogs() {
 			orderBy: {
 				createdAt: "desc",
 			},
-        });
+		});
 		return blogs;
 	} catch (error) {
 		console.error("Error while fetching blogs:", error);
@@ -48,7 +48,7 @@ async function BlogList() {
 				<BlogCard
 					key={idx}
 					title={blog.title}
-					createdAt={(blog.createdAt).toString()}
+					createdAt={blog.createdAt.toString()}
 					content={blog.content}
 					id={blog.id}
 				/>
