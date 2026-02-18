@@ -3,7 +3,7 @@ import path from "path";
 
 export async function GET() {
 	// Example: read a file from the local filesystem
-	const filePath = path.join(process.cwd(), "private/suraj.pdf");
+	const filePath = path.join(process.cwd(), "public/suraj.pdf");
 	const buffer = await fs.readFile(filePath);
 
 	// Set headers to trigger a download
