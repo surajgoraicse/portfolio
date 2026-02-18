@@ -1,8 +1,7 @@
 "use client";
 
-import { Badge, Tooltip } from "@radix-ui/themes";
-import React from "react";
 import { bricolage_grotesque } from "@/utils/fonts";
+import { Badge, Tooltip } from "@radix-ui/themes";
 import Title from "./ui/Title";
 
 const Skills = () => {
@@ -33,9 +32,8 @@ export default Skills;
 // const data: string[] = ["JavaScript", "TypeScript", "Next.js", "React", "Prisma", "MongoDB", "PostgreSQL", "Supabase", "MySQL", "Turborepo", "Docker", "AWS", "Redux", "Tailwind CSS", "Node.js", "Express,js", "Git"];
 const data: string[] = [
 	"Go",
-	"Python",
-	"Django",
-	"FastAPI",
+	"TypeScript",
+	"Redis",
 	"Node.JS",
 	"SQL",
 	"PostgreSQL",

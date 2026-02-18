@@ -1,10 +1,9 @@
 import Skills from "@/components/Skills";
 // import Experience from "@/components/Experience";
-import Education from "@/components/Education";
 import Contact from "@/components/Contact";
+import Education from "@/components/Education";
 // import GitGraph from "./components/GitGraph"
 // import AddOnProjects from "@/components/AddOnProjects";
-import HomeRouteBlogs from "@/components/HomeRouteBlogs";
 import InitialLanding from "./components/InitialLanding";
 
 export default function Home() {
@@ -20,9 +19,9 @@ export default function Home() {
 				<Experience />  // Uncomment if you want to show Experience section
 			</div> */}
 
-			<div className="w-full flex justify-center mt-12">
+			{/* <div className="w-full flex justify-center mt-12">
 				<HomeRouteBlogs />
-			</div>
+			</div> */}
 
 			{/* <GitGraph /> */}
 

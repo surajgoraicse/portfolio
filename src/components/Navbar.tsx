@@ -71,7 +71,7 @@ const Navbar = () => {
 					/>
 
 					<Link
-						href="/private/suraj.pdf"
+						href="/resume"
 						target="_blank"
 						download={"suraj_resume.pdf"}
 						underline="none"
