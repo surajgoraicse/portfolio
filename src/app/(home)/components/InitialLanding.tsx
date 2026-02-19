@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion"
 import HeroSection from "@/components/HeroSection"
-// import ProjectCardList from "@/app/projects/components/ProjectCardList"
+import TabbedProjectList from "@/components/TabbedProjectList"
+import Title from "@/components/ui/Title"
 
 export default function InitialLanding() {
     return (
@@ -14,10 +15,11 @@ export default function InitialLanding() {
         >
             <HeroSection />
 
-            {/* uncomment this to show projects */}
-            {/* <div className="w-full flex justify-center mt-52 max-sm:mt-20">
-                <ProjectCardList />
-            </div> */}
+            <div className="w-full flex flex-col justify-center items-center mt-52 max-sm:mt-20">
+                <Title title='Proof of Work' />
+                <br />
+                <TabbedProjectList />
+            </div>
         </motion.div>
     )
 }

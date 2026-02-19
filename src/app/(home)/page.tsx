@@ -1,44 +1,41 @@
-import Skills from "@/components/Skills";
-// import Experience from "@/components/Experience";
-import Contact from "@/components/Contact";
-import Education from "@/components/Education";
-// import GitGraph from "./components/GitGraph"
-// import AddOnProjects from "@/components/AddOnProjects";
-import InitialLanding from "./components/InitialLanding";
+import dynamic from "next/dynamic"
+
+const Skills = dynamic(() => import("@/components/Skills"), { ssr: false });
+const Experience = dynamic(() => import("@/components/Experience"), { ssr: false });
+const Education = dynamic(() => import("@/components/Education"), { ssr: false });
+const Contact = dynamic(() => import("@/components/Contact"), { ssr: false });
+const GitGraph = dynamic(() => import("./components/GitGraph"), { ssr: false });
+const HomeRouteBlogs = dynamic(() => import("@/components/HomeRouteBlogs"), { ssr: false });
+import InitialLanding from "./components/InitialLanding"
 
 export default function Home() {
-	return (
-		<div className="max-[350px]:overflow-hidden mt-8 max-sm:mt-0">
-			<InitialLanding />
+  return (
+    <div className="max-[350px]:overflow-hidden mt-8 max-sm:mt-0">
+      <InitialLanding />
 
-			{/* <div className="w-full flex justify-center">
-				<AddOnProjects />
-			</div> */}
+      <div className="w-full flex justify-center mt-8">
+        <Experience />
+      </div>
 
-			{/* <div className="w-full flex justify-center mt-8">
-				<Experience />  // Uncomment if you want to show Experience section
-			</div> */}
+      <div className="w-full flex justify-center mt-8">
+        <HomeRouteBlogs />
+      </div>
 
-			{/* <div className="w-full flex justify-center mt-12">
-				<HomeRouteBlogs />
-			</div> */}
+      <div className="w-full flex justify-center">
+        <GitGraph />
+      </div>
 
-			{/* <GitGraph /> */}
+      <div className="w-full flex justify-center mt-12">
+        <Skills />
+      </div>
 
-			<div className="w-full flex justify-center mt-12">
-				<Skills />
-			</div>
+      <div className="w-full flex justify-center mt-12">
+        <Education />
+      </div>
 
-			<div className="w-full flex justify-center mt-12">
-				<Education />
-			</div>
-
-			<div
-				className="w-full flex justify-center mt-8"
-				id="contact-section"
-			>
-				<Contact />
-			</div>
-		</div>
-	);
+      <div className="w-full flex justify-center mt-8" id="contact-section">
+        <Contact />
+      </div>
+    </div>
+  )
 }

@@ -1,35 +1,20 @@
-name: postgres
+version: '3'
 services:
-  postgres:
+  db:
     image: postgres
-    container_name: postgres
-    environment:
-      POSTGRES_USER: surajgoraicse
-      POSTGRES_PASSWORD: surajgoraicse
-      POSTGRES_DB: portfolio # creates an initial db
-    ports:
-      - "5432:5432"
+    restart: always
     volumes:
-      - /home/suraj/suraj/internal/postgres:/var/lib/postgresql/data
-    restart: always
-    networks:
-      - my-network
-
-  pgadmin:
-    image: dpage/pgadmin4
-    container_name: pgadmin
-    environment:
-      PGADMIN_DEFAULT_EMAIL: surajgoraicse@gmail.com
-      PGADMIN_DEFAULT_PASSWORD: surajgoraicse
+      - ./data/db:/var/lib/postgresql/data
     ports:
-      - "8080:80"
-    depends_on:
-      - postgres
+      - 5432:5432  # make sure you don't have another container running on 5432
+
+    environment:
+      - POSTGRES_DB=portfolio
+      - POSTGRES_USER=portfolio
+      - POSTGRES_PASSWORD=fardeenportfolio
+
+  adminer:
+    image: adminer
     restart: always
-    networks:
-      - my-network
-
-
-networks:
-  my-network:
-    driver: bridge
+    ports:
+      - 8080:8080

@@ -20,7 +20,7 @@ const BlogCard = ({ title, createdAt, content, id }: Blog) => {
 
     return (
         <Link href={`/blogs/${id}`} underline='none'>
-            <div className={` flex gap-5 py-1 px-5 rounded-lg w-[50vw] overflow-hidden max-sm:w-full ${bricolage_grotesque}`}>
+            <div className={`flex gap-5 py-1 px-5 rounded-lg w-[50vw] overflow-hidden max-sm:w-full ${bricolage_grotesque}`}>
                 <div className="py-3 space-y-2 w-full">
                     <h2 className='text-[26px] max-sm:text-base font-extrabold dark:text-white text-black break-words'>{title}</h2>
                     <div className="line-clamp-2 max-sm:w-[85vw] dark:text-[#dcdcdc] text-[#6B6B6B] max-sm:mt-2 text-[15px] !mt-[2px]" dangerouslySetInnerHTML={{ __html: content as TrustedHTML }} />

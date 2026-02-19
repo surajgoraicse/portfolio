@@ -6,34 +6,34 @@ import DarkModeProvider from "@/context/DarkModeContext";
 import { Toaster } from "sonner";
 import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
-import ConditionalFooter from "./ConditionalFooter";
 import Provider from "@/context/Provider";
+import dynamic from "next/dynamic";
+const ConditionalFooter = dynamic(() => import("./ConditionalFooter"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "suraj",
-  description: "Suraj Gorai is a Backend Developer specializing in building scalable, production-grade systems using Go / Python from scratch. Explore his portfolio to see my projects and skills.",
-  keywords: "Suraj Gorai, Backend Developer, Web Developer, Portfolio, Go, Python, Golang, Node.js, software engineer",
-  authors: [{ name: "Suraj Gorai" }],
+  title: "fardeen",
+  description: "Fardeen Mansoori is a Full Stack Developer specializing in building impactful web applications from scratch. Explore his portfolio to see my projects and skills.",
+  keywords: "Fardeen Mansoori, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
+  authors: [{ name: "Fardeen Mansoori" }],
   openGraph: {
-    title: "suraj",
+    title: "fardeen",
     description: "",
-    url: "#", // add your website url eg. https://suraj.dev
-    siteName: "suraj",
+    url: "https://fardeen.tech",
+    siteName: "fardeen",
     images: [
       {
-        url: "https://res.cloudinary.com/surajgoraicse/image/upload/v1754712995/portfolio_covdt3.png",
-        // url: "https://res.cloudinary.com/surajgoraicse/image/upload/v1754202297/Suraj_Gorai_llxgon.png",
+        url: "https://res.cloudinary.com/dl27j0qcm/image/upload/v1739721063/gradii-3840x2160_3_jqk2nt.png",
         width: 400,
         height: 200,
-        alt: "suraj",
+        alt: "fardeen",
       },
     ],
     type: "website",
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'suraj',
-    creator: '@surajgoraicse',
+    title: 'fardeen',
+    creator: '@fardeentwt',
   },
 };
 

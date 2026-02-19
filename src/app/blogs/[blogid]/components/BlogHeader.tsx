@@ -18,7 +18,7 @@ export default function BlogHeader({ author, createdAt, readingTime }: BlogHeade
                 size='2'
             />
             <Link
-                href='https://x.com/intent/follow?screen_name=surajgoraicse'
+                href='https://x.com/intent/follow?screen_name=fardeen14693425'
                 underline='none'
                 className='text-sm text-black dark:text-white'
             >
