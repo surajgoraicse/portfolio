@@ -7,7 +7,7 @@ const Avatar = () => {
 			target="_blank"
 		>
 			<Picture
-				src="/suraj.png"
+				src="/suraj.jpg"
 				fallback="S"
 				size="6"
 				radius="full"
