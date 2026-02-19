@@ -86,6 +86,14 @@ export const backendProjects: Project[] = [
 		link: "https://github.com/surajgoraicse/rate-limiter",
 		source: "https://github.com/surajgoraicse/rate-limiter",
 	},
+	{
+		logo: "/cache.png",
+		title: "Go Cache",
+		description: `As a developer, I wanted to understand how cache works under the hood. Instead of just reading about them, I decided to build my own cache from scratch in Go.`,
+		techStack: ["Go"],
+		link: "https://github.com/surajgoraicse/go-cache",
+		source: "https://github.com/surajgoraicse/go-cache",
+	},
 ];
 
 /**
