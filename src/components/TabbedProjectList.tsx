@@ -14,7 +14,7 @@ const TabbedProjectList = () => {
 							value="web"
 							className="text-xs sm:text-sm data-[state=active]:bg-white/20"
 						>
-							Fullstack Projects
+							Full Stack Projects
 						</TabsTrigger>
 						<TabsTrigger
 							value="backend"
