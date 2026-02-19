@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 		siteName: "suraj",
 		images: [
 			{
-				url: "https://res.cloudinary.com/surajgoraicse/image/upload/v1754712995/portfolio_covdt3.png",
+				url: "/cover.png",
 				width: 400,
 				height: 200,
 				alt: "suraj",

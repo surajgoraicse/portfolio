@@ -7,11 +7,11 @@ import { backendProjects, fullstackProjects } from "@/utils/constant";
 const TabbedProjectList = () => {
 	return (
 		<div className="w-full">
-			<Tabs defaultValue="web" className="w-full">
+			<Tabs defaultValue="backend" className="w-full">
 				<div className="flex justify-center mb-8 max-sm:mb-4 max-sm:px-2">
 					<TabsList className="w-full max-w-lg max-sm:max-w-4xl bg-white bg-opacity-10 backdrop-blur-lg border dark:border-white/10 grid grid-cols-1 sm:grid-cols-2 gap-1">
 						<TabsTrigger
-							value="web"
+							value="fullstack"
 							className="text-xs sm:text-sm data-[state=active]:bg-white/20"
 						>
 							Full Stack Projects
@@ -25,7 +25,7 @@ const TabbedProjectList = () => {
 					</TabsList>
 				</div>
 
-				<TabsContent value="web" className="mt-0">
+				<TabsContent value="fullstack" className="mt-0">
 					<ProjectCardList data={fullstackProjects} />
 				</TabsContent>
 
