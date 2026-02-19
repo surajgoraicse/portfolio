@@ -115,6 +115,23 @@ const Navbar = () => {
 							</div>
 						</Tooltip>
 					</Link>
+					<Link
+						href="https://medium.com/@surajgoraicse"
+						target="_blank"
+					>
+						<Tooltip content="Medium">
+							<div className="hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300">
+								<svg
+									className="w-[20px] h-[20px] max-sm:w-[16px] max-sm:h-[16px] text-black dark:text-white"
+									viewBox="0 0 24 24"
+									fill="currentColor"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path d="M4 5.5C4 5.22 4.22 5 4.5 5H8.3L12 12.1L15.7 5H19.5C19.78 5 20 5.22 20 5.5V18.5C20 18.78 19.78 19 19.5 19H16.5C16.22 19 16 18.78 16 18.5V9.9L12.8 16.3C12.67 16.56 12.4 16.7 12.12 16.7C11.84 16.7 11.57 16.56 11.44 16.3L8.2 9.85V18.5C8.2 18.78 7.98 19 7.7 19H4.5C4.22 19 4 18.78 4 18.5V5.5Z" />
+								</svg>
+							</div>
+						</Tooltip>
+					</Link>
 
 					<Link
 						href="https://x.com/intent/follow?screen_name=surajgoraicse"

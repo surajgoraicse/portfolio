@@ -15,18 +15,19 @@ const ConditionalFooter = dynamic(() => import("./ConditionalFooter"), {
 export const metadata: Metadata = {
 	title: "suraj",
 	description:
-		"Suraj Gorai is a Full Stack Developer specializing in building impactful web applications from scratch. Explore his portfolio to see my projects and skills.",
+		"Suraj Gorai is a Backend Developer specializing in building scalable, production-grade systems using Go and NodeJS from scratch. Explore his portfolio to see my projects and skills.",
 	keywords:
-		"Suraj Gorai, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
+		"Suraj Gorai, Backend Developer, Web Developer, Portfolio, Go, TypeScript, Golang, Redis, System Design, Node.js, software engineer, database,",
 	authors: [{ name: "Suraj Gorai" }],
 	openGraph: {
 		title: "suraj",
-		description: "",
-		url: "https://suraj.tech",
+		description:
+			"Suraj Gorai is a Backend Developer specializing in building scalable, production-grade systems using Go and NodeJS from scratch. Explore his portfolio to see my projects and skills.",
+		url: "https://suraj.coderz.space",
 		siteName: "suraj",
 		images: [
 			{
-				url: "https://res.cloudinary.com/dl27j0qcm/image/upload/v1739721063/gradii-3840x2160_3_jqk2nt.png",
+				url: "https://res.cloudinary.com/surajgoraicse/image/upload/v1754712995/portfolio_covdt3.png",
 				width: 400,
 				height: 200,
 				alt: "suraj",

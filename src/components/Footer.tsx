@@ -11,7 +11,7 @@ const Footer = () => {
 						target="_blank"
 					>
 						{" "}
-						surajgoraicse{" "}
+						suraj{" "}
 					</Link>
 				</p>
 			</div>
