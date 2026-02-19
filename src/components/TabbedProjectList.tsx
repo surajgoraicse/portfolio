@@ -1,6 +1,6 @@
 "use client";
 
-import ProjectList from "@/app/projects/components/ProjectList";
+import ProjectCardList from "@/app/projects/components/ProjectCardList";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { backendProjects, fullstackProjects } from "@/utils/constant";
 
@@ -26,11 +26,11 @@ const TabbedProjectList = () => {
 				</div>
 
 				<TabsContent value="web" className="mt-0">
-					<ProjectList data={fullstackProjects} />
+					<ProjectCardList data={fullstackProjects} />
 				</TabsContent>
 
 				<TabsContent value="backend" className="mt-0">
-					<ProjectList data={backendProjects} />
+					<ProjectCardList data={backendProjects} />
 				</TabsContent>
 			</Tabs>
 		</div>

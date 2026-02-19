@@ -7,11 +7,11 @@ import { Badge } from "@radix-ui/themes";
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 
-const ProjectList = ({ data }: { data: Project[] }) => {
+const ProjectCardList = ({ data }: { data: Project[] }) => {
 	const [visibleProjects, setVisibleProjects] = useState(6);
 
 	const loadMoreProjects = () => {
-		setVisibleProjects((prev) => data.length);
+		setVisibleProjects(data.length);
 	};
 
 	return (
@@ -49,4 +49,4 @@ const ProjectList = ({ data }: { data: Project[] }) => {
 	);
 };
 
-export default ProjectList;
+export default ProjectCardList;
