@@ -15,7 +15,7 @@ export default function InitialLanding() {
         >
             <HeroSection />
 
-            <div className="w-full flex flex-col justify-center items-center mt-52 max-sm:mt-20">
+            <div className="w-full flex flex-col justify-center items-center mt-16">
                 <Title title='Proof of Work' />
                 <br />
                 <TabbedProjectList />

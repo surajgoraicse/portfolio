@@ -1,17 +1,20 @@
-import React from 'react'
-import { Link, Avatar as Picture } from '@radix-ui/themes'
+import { Link, Avatar as Picture } from "@radix-ui/themes";
 
 const Avatar = () => {
-  return (
-    <Link href='https://x.com/intent/follow?screen_name=fardeentwt' target='_blank'>
-      <Picture
-        src='/space.jpeg'
-        fallback="A"
-        size='6'
-        radius='full'
-      />
-    </Link>
-  )
-}
+	return (
+		<Link
+			href="https://x.com/intent/follow?screen_name=surajgoraicse"
+			target="_blank"
+		>
+			<Picture
+				src="/suraj.png"
+				fallback="S"
+				size="6"
+				radius="full"
+				alt="suraj"
+			/>
+		</Link>
+	);
+};
 
-export default Avatar
+export default Avatar;

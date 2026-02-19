@@ -17,13 +17,13 @@ export default function Home() {
         <Experience />
       </div>
 
-      <div className="w-full flex justify-center mt-8">
+      {/* <div className="w-full flex justify-center mt-8">
         <HomeRouteBlogs />
-      </div>
+      </div> */}
 
-      <div className="w-full flex justify-center">
+      {/* <div className="w-full flex justify-center">
         <GitGraph />
-      </div>
+      </div> */}
 
       <div className="w-full flex justify-center mt-12">
         <Skills />
