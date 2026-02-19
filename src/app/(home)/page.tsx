@@ -33,9 +33,9 @@ export default function Home() {
         <Education />
       </div>
 
-      <div className="w-full flex justify-center mt-8" id="contact-section">
+      {/* <div className="w-full flex justify-center mt-8" id="contact-section">
         <Contact />
-      </div>
+      </div> */}
     </div>
   )
 }

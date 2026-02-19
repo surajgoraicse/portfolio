@@ -48,6 +48,7 @@ const Contact = () => {
 			}
 		} catch (err) {
 			const error = err as AxiosError;
+			console.log("gtting error ", err);
 			toast.error(error.message);
 		} finally {
 			setIsEmailSending(false);
