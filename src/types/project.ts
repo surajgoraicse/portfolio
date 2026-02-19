@@ -62,12 +62,3 @@ export interface Blog {
     image_public_id: string;
     content: string;
 }
-
-export interface IBlog {
-    id: string;
-    title: string;
-    author: string;
-    createdAt: Date;
-    image_public_id: string;
-    content: string;
-}

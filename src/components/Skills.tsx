@@ -16,7 +16,7 @@ const Skills = () => {
 							color="gray"
 							variant="solid"
 							highContrast
-							className={`text-sm max-sm:text-[10px] rounded-md dark:hover:bg-gray-300 py-1 px-2 cursor-pointer hover:bg-gray-800 ${bricolage_grotesque}`}
+							className={`text-xs max-sm:text-[10px] dark:hover:bg-gray-300 py-1 px-2 cursor-pointer hover:bg-gray-800 ${bricolage_grotesque}`}
 						>
 							{skill}
 						</Badge>
@@ -29,16 +29,19 @@ const Skills = () => {
 
 export default Skills;
 
-// const data: string[] = ["JavaScript", "TypeScript", "Next.js", "React", "Prisma", "MongoDB", "PostgreSQL", "Supabase", "MySQL", "Turborepo", "Docker", "AWS", "Redux", "Tailwind CSS", "Node.js", "Express,js", "Git"];
 const data: string[] = [
 	"Go",
+	"Echo",
+	"Node.js",
 	"TypeScript",
+	"JavaScript",
+	"Hone.JS",
+	"Express.JS",
+	"Next.JS",
 	"Redis",
-	"Node.JS",
-	"SQL",
 	"PostgreSQL",
 	"MongoDB",
+	"Turborepo",
 	"Docker",
 	"AWS",
-	"CI/CD",
 ];

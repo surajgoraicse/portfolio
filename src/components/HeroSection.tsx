@@ -1,12 +1,9 @@
 import Avatar from "@/app/(home)/components/Avatar";
 import { bricolage_grotesque, inter } from "@/utils/fonts";
-import Link from "next/link";
-import { Link as ScrollLink } from "react-scroll";
-import { RainbowButton } from "./ui/rainbow-button";
 
 export default function HeroSection() {
 	return (
-		<div className="w-full flex justify-center py-5 pt-36 dark:bg-black">
+		<div className="w-full flex justify-center py-5 pt-28 dark:bg-black">
 			<div className="w-2/3 max-sm:w-full flex flex-col items-center">
 				<div>
 					<Avatar />
@@ -20,20 +17,19 @@ export default function HeroSection() {
 					<h1
 						className={`mt-2 max-sm:mt-5 max-sm:px-3 !text-base max-sm:!text-sm text-center !font-normal !tracking-normal inter !leading-6 ${inter}`}
 					>
-						I&apos;m a backend developer with a strong foundation in
-						computer science and a growing expertise in building
-						scalable, production-grade systems using Go and
-						TypeScript.
-						<br />
-						If you&apos;re working on something real, let&apos;s
-						talk.
+						I&apos;m a backend developer with growing expertise in
+						distributed systems, system design and event-driven
+						architecture.
 					</h1>
 				</div>
-				<div className="mt-8 flex gap-4">
-					<Link href="#" target="_blank">
-						<RainbowButton>Book a meet</RainbowButton>
+				{/* <div className="mt-8 flex gap-4">
+					<Link
+						href="https://cal.com/surajgoraicse/15min"
+						target="_blank"
+					>
+						<Button className="rounded-lg">Book a meet</Button>
 					</Link>
-					<RainbowButton>
+					<Button className="rounded-lg">
 						<ScrollLink
 							to="contact-section"
 							activeClass="active"
@@ -43,8 +39,8 @@ export default function HeroSection() {
 						>
 							Get in touch
 						</ScrollLink>
-					</RainbowButton>
-				</div>
+					</Button>
+				</div> */}
 			</div>
 		</div>
 	);

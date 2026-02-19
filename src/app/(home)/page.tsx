@@ -1,43 +1,24 @@
-import Skills from "@/components/Skills";
-// import Experience from "@/components/Experience";
-import Contact from "@/components/Contact";
-import Education from "@/components/Education";
-// import GitGraph from "./components/GitGraph"
-// import AddOnProjects from "@/components/AddOnProjects";
+import dynamic from "next/dynamic";
 import InitialLanding from "./components/InitialLanding";
+
+const Experience = dynamic(() => import("@/components/Experience"), {
+	ssr: false,
+});
+const Education = dynamic(() => import("@/components/Education"), {
+	ssr: false,
+});
 
 export default function Home() {
 	return (
 		<div className="max-[350px]:overflow-hidden mt-8 max-sm:mt-0">
 			<InitialLanding />
 
-			{/* <div className="w-full flex justify-center">
-				<AddOnProjects />
-			</div> */}
-
-			{/* <div className="w-full flex justify-center mt-8">
-				<Experience />  // Uncomment if you want to show Experience section
-			</div> */}
-
-			{/* <div className="w-full flex justify-center mt-12">
-				<HomeRouteBlogs />
-			</div> */}
-
-			{/* <GitGraph /> */}
-
-			<div className="w-full flex justify-center mt-12">
-				<Skills />
+			<div className="w-full flex justify-center mt-8">
+				<Experience />
 			</div>
 
-			<div className="w-full flex justify-center mt-12">
+			<div className="w-full flex justify-center mt-8">
 				<Education />
-			</div>
-
-			<div
-				className="w-full flex justify-center mt-8"
-				id="contact-section"
-			>
-				<Contact />
 			</div>
 		</div>
 	);
